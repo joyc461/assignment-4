@@ -1,0 +1,61 @@
+.container-carousel{
+    max-width: 1000px;
+}
+.carousel-inner .carousel-div{
+    left: 34%;
+    top: 26%;
+    right: 0;
+    width: 50%;
+}
+.carousel-inner .carousel-div .extra{
+font-size: 25px;
+font-weight: 401;
+font-family: sans-serif;
+color: #fff;
+}
+.carousel-inner .carousel-div .horizontal-rule{
+width: 85px;
+background:#fff;
+margin-left: 200px;
+margin-top: -20px;
+}
+.carousel-inner .carousel-div .offer{
+font-size: 45px;
+font-weight: 501;
+margin-top: -15px;
+margin-left: 86px;
+color: #fff;
+}
+.carousel-inner .carousel-div .coupon{
+border: 2px solid #fff;
+height: 36px;
+width: 170px;
+font-size: 20px;
+margin-left: 41%;
+color: #5b5858;
+font-weight: 501;
+background: white;
+margin-top: 8px;
+}
+.carousel-inner .carousel-div .view-buttons{
+margin-top: 30px;
+margin-left: 31%;
+width: 350px;
+
+}
+.view-buttons .button-1{
+    height: 35px;
+    width: 122px;
+    border: 2px solid transparent;
+    color: #a8a3a3;
+    font-weight: 501;
+    margin-right: 6px;
+}
+.view-buttons .button-2{
+height: 35px;
+width: 122px;
+background: #06b7ff;
+color: #fff;
+font-weight: 501;
+border: 2px solid transparent;
+}
