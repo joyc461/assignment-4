@@ -1,61 +1,286 @@
-.container-carousel{
-    max-width: 1000px;
+.nav-container {
+  background: #242222;
+  margin-bottom: 10px;
+  overflow: hidden;
 }
-.carousel-inner .carousel-div{
-    left: 34%;
-    top: 26%;
-    right: 0;
-    width: 50%;
+.nav-container .navigation {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
 }
-.carousel-inner .carousel-div .extra{
-font-size: 25px;
-font-weight: 401;
-font-family: sans-serif;
-color: #fff;
+.navigation .left-nav {
+  display: flex;
+  /*margin-left: 14px;*/
+  color: #f4eeee;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  cursor: pointer;
 }
-.carousel-inner .carousel-div .horizontal-rule{
-width: 85px;
-background:#fff;
-margin-left: 200px;
-margin-top: -20px;
+.navigation .right-nav {
+  display: flex;
+  /* margin-right: 14px;*/
+  color: #f4eeee;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  cursor: pointer;
 }
-.carousel-inner .carousel-div .offer{
-font-size: 45px;
-font-weight: 501;
-margin-top: -15px;
-margin-left: 86px;
-color: #fff;
+.navigation .right-nav .my-account {
+  padding-left: 10px;
 }
-.carousel-inner .carousel-div .coupon{
-border: 2px solid #fff;
-height: 36px;
-width: 170px;
-font-size: 20px;
-margin-left: 41%;
-color: #5b5858;
-font-weight: 501;
-background: white;
-margin-top: 8px;
+.perfume-container {
+  margin-bottom: 20px;
 }
-.carousel-inner .carousel-div .view-buttons{
-margin-top: 30px;
-margin-left: 31%;
-width: 350px;
 
+.perfume-container .perfume-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
 }
-.view-buttons .button-1{
-    height: 35px;
-    width: 122px;
-    border: 2px solid transparent;
-    color: #a8a3a3;
-    font-weight: 501;
-    margin-right: 6px;
+
+.perfume-navigation .wholesale-dept {
+  font-size: 20px;
+  font-weight: 501;
+  margin-left: 20px;
 }
-.view-buttons .button-2{
-height: 35px;
-width: 122px;
-background: #06b7ff;
+
+.perfume-navigation .search {
+  position: relative;
+  /*margin-right: 16px;*/
+}
+.perfume-navigation .search .search-text {
+  height: 31px;
+  width: 300px;
+  border: 2px solid #cfcbcb;
+  padding-left: 8px;
+  font-style: italic;
+}
+
+.perfume-navigation .search .search-btn {
+  position: absolute;
+  margin-left: -27px;
+}
+.perfume-navigation .search .search-btn img {
+  border: 2px solid transparent;
+  border-left-color: transparent;
+  height: 30px;
+  padding: 4px;
+  border-left-color: #cfcbcb;
+}
+.perfume-container .horizontal-rule-1 {
+  margin: auto;
+  width: 1000px;
+}
+.perfume-container .nav-bar {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 501;
+  color: #b2b2b2;
+  flex-wrap: wrap;
+}
+.nav-bar .active {
+  color: #30b5eb;
+  cursor: pointer;
+}
+.nav-bar .mens-cologne,
+.womens-perfume,
+.bath-body,
+.haircare,
+.makeup,
+.skincare,
+.gift-set,
+.oils {
+  cursor: pointer;
+}
+.nav-bar .mens-cologne:hover {
+  color: #30b5eb;
+}
+.nav-bar .womens-perfume:hover {
+  color: #30b5eb;
+}
+.nav-bar .bath-body:hover {
+  color: #30b5eb;
+}
+.nav-bar .haircare:hover {
+  color: #30b5eb;
+}
+.nav-bar .makeup:hover {
+  color: #30b5eb;
+}
+.nav-bar .skincare:hover {
+  color: #30b5eb;
+}
+.nav-bar .gift-set:hover {
+  color: #30b5eb;
+}
+.nav-bar .oils:hover {
+  color: #30b5eb;
+}
+
+.container-carousel {
+  max-width: 1031px;
+}
+.carousel-inner .carousel-div {
+  left: 34%;
+  top: 26%;
+  right: 0;
+  width: 50%;
+}
+.carousel-inner .carousel-div .extra {
+  font-size: 25px;
+  font-weight: 401;
+  font-family: sans-serif;
+  color: #fff;
+}
+.carousel-inner .carousel-div .horizontal-rule {
+  width: 85px;
+  background: #fff;
+  margin-left: 208px;
+  margin-top: -20px;
+}
+.carousel-inner .carousel-div .offer {
+  font-size: 45px;
+  font-weight: 501;
+  margin-top: -15px;
+  margin-left: 86px;
+  color: #fff;
+}
+.carousel-inner .carousel-div .coupon {
+  border: 2px solid #fff;
+  height: 36px;
+  width: 170px;
+  font-size: 20px;
+  margin-left: 41%;
+  color: #5b5858;
+  font-weight: 501;
+  background: white;
+  margin-top: 8px;
+}
+.carousel-inner .carousel-div .view-buttons {
+  margin-top: 30px;
+  margin-left: 31%;
+  width: 350px;
+}
+.view-buttons .button-1 {
+  height: 35px;
+  width: 122px;
+  border: 2px solid transparent;
+  color: #a8a3a3;
+  font-weight: 501;
+  margin-right: 6px;
+}
+.view-buttons .button-2 {
+  height: 35px;
+  width: 122px;
+  background: #06b7ff;
+  color: #fff;
+  font-weight: 501;
+  border: 2px solid transparent;
+}
+
+.glass-container {
+  position: relative;
+}
+.glass-container .watermark {
+  position: absolute;
+  top: 89%;
+  left: 20%;
+  height: 40px;
+  opacity: 0.3;
+}
+.glass-container .subscribe-content {
+  position: absolute;
+  top: 28%;
+  right: 10%;
+  text-align: center;
+  color: #fff;
+}
+.subscribe-content .newsletter {
+  margin-bottom: 15px;
+  font-weight: 501;
+}
+.subscribe-content .text-content {
+  margin-bottom: 50px;
+}
+.glass-container .subscribe-content .email-input {
+  position: relative;
+}
+
+.glass-container .subscribe-content .email-input input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-style: italic;
+}
+.glass-container .subscribe-content .email-input .right-arrow {
+  height: 20px;
+  position: absolute;
+  top: 14px;
+  right: 0%;
+  mix-blend-mode: difference;
+}
+.footer {
+  background-image: url(img/footerbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer .footer-container {
+  max-width: 1000px;
+  margin: auto;
+  color: #fff;
+}
+.footer-container .footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.footer-content .logo-content .pride-logo {
+  padding-bottom: 25px;
+}
+.footer-content .logo-content .social-logo {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -18px;
+}
+.footer-content .our-services {
+  padding-top: 16px;
+}
+.our-services .service {
+  padding-bottom: 10px;
+  font-weight: 501;
+}
+.footer-content .information {
+  padding-top: 16px;
+}
+.information .information-div {
+  padding-bottom: 10px;
+  font-weight: 501;
+}
+.footer-content .company-info {
+  padding-top: 16px;
+}
+.company-info .company-information {
+  padding-bottom: 10px;
+  font-weight: 501;
+}
+.company-info .email-address {
+  padding-bottom: 24px;
+}
+.copyright-container{
+background: #212121;
 color: #fff;
-font-weight: 501;
-border: 2px solid transparent;
+text-align: center;
+padding: 10px;
 }
