@@ -125,6 +125,7 @@
 
 .container-carousel {
   max-width: 1031px;
+  margin-bottom: 40px;
 }
 .carousel-inner .carousel-div {
   left: 34%;
@@ -187,16 +188,19 @@
 .glass-container {
   position: relative;
 }
+.glass-container .glass-bg{
+  width: 100%;
+}
 .glass-container .watermark {
   position: absolute;
-  top: 89%;
+  top: 86%;
   left: 20%;
   height: 40px;
   opacity: 0.3;
 }
 .glass-container .subscribe-content {
   position: absolute;
-  top: 28%;
+  top: 22%;
   right: 10%;
   text-align: center;
   color: #fff;
@@ -241,8 +245,8 @@
 .footer-container .footer-content {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   flex-wrap: wrap;
 }
 
@@ -283,4 +287,38 @@ background: #212121;
 color: #fff;
 text-align: center;
 padding: 10px;
+}
+
+.slick-slider-container{
+max-width: 100%;
+margin-bottom: 40px;
+
+}
+.slick-content{
+  max-width: 1000px;
+  margin: auto;
+}
+.slider .slick-prev::before{
+  font-size: 25px;
+color: #796d6d;
+}
+.slider .slick-next::before{
+  font-size: 25px;
+  color:#796d6d;
+}
+.slick-content .slick-slide img{
+  height: 280px;
+}
+.col-md-12 .perfume-img .position{
+  position: relative;
+}
+.col-md-12 .perfume-img  .add-to-cart{
+display: flex;
+background: #312f2f;
+color: #fff;
+padding: 8px;
+position: absolute;
+top: 68%;
+width: 88%;
+justify-content: space-between;
 }
