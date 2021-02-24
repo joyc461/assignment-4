@@ -17,6 +17,7 @@
   flex-wrap: wrap;
   margin-top: 10px;
   cursor: pointer;
+  font-family: "Lucida Console", monospace;
 }
 .navigation .right-nav {
   display: flex;
@@ -26,6 +27,7 @@
   flex-wrap: wrap;
   margin-top: 10px;
   cursor: pointer;
+  font-family: "Lucida Console", monospace;
 }
 .navigation .right-nav .my-account {
   padding-left: 10px;
@@ -40,12 +42,15 @@
   align-items: center;
   max-width: 1000px;
   margin: auto;
+  flex-wrap: wrap;
 }
 
 .perfume-navigation .wholesale-dept {
   font-size: 20px;
-  font-weight: 501;
+  /*font-weight: 501;*/
   margin-left: 20px;
+  font-family: "Lucida Console", monospace;
+  font-weight: bold;
 }
 
 .perfume-navigation .search {
@@ -80,9 +85,11 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
-  font-weight: 501;
+  /*font-weight: 501;*/
   color: #b2b2b2;
   flex-wrap: wrap;
+  font-family: "Lucida Console", monospace;
+  font-weight: bold;
 }
 .nav-bar .active {
   color: #30b5eb;
@@ -188,12 +195,12 @@
 .glass-container {
   position: relative;
 }
-.glass-container .glass-bg{
+.glass-container .glass-bg {
   width: 100%;
 }
 .glass-container .watermark {
   position: absolute;
-  top: 86%;
+  top: 85%;
   left: 20%;
   height: 40px;
   opacity: 0.3;
@@ -282,43 +289,92 @@
 .company-info .email-address {
   padding-bottom: 24px;
 }
-.copyright-container{
-background: #212121;
-color: #fff;
-text-align: center;
-padding: 10px;
+.copyright-container {
+  background: #212121;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
 
-.slick-slider-container{
-max-width: 100%;
-margin-bottom: 40px;
-
+.slick-slider-container {
+  max-width: 100%;
+  margin-bottom: 40px;
 }
-.slick-content{
+.slick-content {
   max-width: 1000px;
   margin: auto;
 }
-.slider .slick-prev::before{
+.slider .slick-prev::before {
   font-size: 25px;
-color: #796d6d;
+  color: #a9a9a9;
 }
-.slider .slick-next::before{
+.slider .slick-next::before {
   font-size: 25px;
-  color:#796d6d;
+  color: #a9a9a9;
 }
-.slick-content .slick-slide img{
+.slick-content .slick-slide img {
   height: 280px;
 }
-.col-md-12 .perfume-img .position{
+.col-md-12 .perfume-img .position {
   position: relative;
 }
-.col-md-12 .perfume-img  .add-to-cart{
-display: flex;
-background: #312f2f;
-color: #fff;
-padding: 8px;
-position: absolute;
-top: 68%;
-width: 88%;
-justify-content: space-between;
+.col-md-12 .perfume-img .add-to-cart {
+  display: flex;
+  background: #312f2f;
+  color: #fff;
+  padding: 6px;
+  position: absolute;
+  top: 68%;
+  width: 88%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Courier New", monospace;
+}
+.col-md-12 .heading-1 {
+  font-weight: 501;
+}
+
+.col-md-12 .heading-2 {
+  color: #a3a3a3;
+  font-weight: 401;
+}
+.col-md-12 .cost {
+  display: flex;
+}
+.col-md-12 .cost .offer-price {
+  color: #30b5eb;
+  padding-right: 36px;
+  font-weight: 501;
+}
+.col-md-12 .cost .actual-price {
+  color: #8e8e8e;
+}
+.col-md-12 .cost .actual-price hr {
+  margin-top: -11px;
+  background: #8e8e8e;
+  width: 28px;
+}
+.bestseller-container {
+  max-width: 1000px;
+  margin: auto;
+}
+.bestseller-container .bestseller {
+  font-size: 18px;
+  font-weight: 501;
+}
+.bestseller-container hr {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.new-arrival-container {
+  max-width: 1000px;
+  margin: auto;
+}
+.new-arrival-container .new-arrival {
+  font-size: 18px;
+  font-weight: 501;
+}
+.new-arrival-container hr {
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
